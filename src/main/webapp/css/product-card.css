@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+	width: 90%;
+	
+}
+
+.container {
+	width: 90%;
+	margin: 15px auto;
+}
+
+.cloth-card {
+	float: left;
+	margin: 15px;
+	position: relative;
+	text-align: center;
+}
+
+
+.cloth-card img{
+	width: 300px;
+	height: 300px;
+	display:block;
+	position: relative;
+}
+
+.cloth-card a {
+	display: none;
+	text-decoration: none;
+	position: absolute;
+	z-index:1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: #333;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+.cloth-card:hover a{
+	display: block;
+}
+.cloth-card a:hover{
+	display: block;
+	background-color: green;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+	font-family: sans-serif;
+}
+
+.nav>ul>li {
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+}
+.sub-menu {
+	display:none;
+	position: relative;
+	margin:0;
+	padding: 0;
+	background-color: white;
+	border: black 1px solid;
+	z-index: 1;
+	
+}
+.nav li:hover>.sub-menu{
+	display: block;
+	position:absolute;
+}
+.sub-menu li {
+	width: max-content;
+	list-style-type: none;
+}
+
+li>a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li>a:hover {
+	color: red;
+}
+
+#cart a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#user a{
+	text-decoration: none;
+	text-transform: uppercase;
+}

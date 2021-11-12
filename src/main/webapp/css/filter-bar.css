@@ -1,0 +1,15 @@
+#filter-bar {
+	position: absolute;
+	border: 1px black solid;
+	background: white;
+	z-index:5;
+	max-width: 200px;
+}
+
+.active {
+	display: block;
+}
+
+.deactivate {
+	display: none;
+}

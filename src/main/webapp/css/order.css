@@ -1,0 +1,35 @@
+.table-wrapper {
+	max-height: 100px;
+	overflow: auto;
+	display: inline-block;
+}
+td, th {
+	vertical-align: middle;
+}
+
+.w-25 img {
+	text-align: center;
+}
+
+.w-25 {
+	text-align: center;
+}
+
+#cart-footer {
+	float: right;
+}
+
+#total-price {
+	font-size: 20px;
+	color: red;
+	text-transform: capitalize;
+} 
+
+tr, td, th{
+	text-transform: uppercase;
+}
+
+
+#infoPart .form-group {
+	max-width: 90%;
+}
